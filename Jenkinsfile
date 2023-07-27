@@ -43,7 +43,7 @@ pipeline {
                         publishHTML([allowMissing         : false,
                                      alwaysLinkToLastBuild: true,
                                      keepAll              : true,
-                                     reportDir            : "${WORKSPACE}//serenity_${timestamp}/site/serenity",
+                                     reportDir            : "${WORKSPACE}//serenity_${timestamp}",
                                      reportFiles          : 'index.html',
                                      reportName           : 'Evidencias Screenplay',
                                      reportTitles         : 'Proyecto Serenity  SCREEMPLAY'])
