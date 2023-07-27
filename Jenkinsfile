@@ -63,7 +63,7 @@ pipeline {
                 }
             }
         }
-       /* stage('SonarQube analysis') {
+        stage('SonarQube analysis') {
             steps {
                 script {
                     scannerHome = tool 'SonarQubeScanner'
@@ -74,6 +74,6 @@ pipeline {
                             bat 'sonar-scanner'
                         }
             }
-        }*/
+        }
     }
 }
