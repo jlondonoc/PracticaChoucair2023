@@ -1,0 +1,6 @@
+projectKey=Garantia03
+serverUrl=http://localhost:9000
+serverVersion=9.4.0.54424
+dashboardUrl=http://localhost:9000/dashboard?id=Garantia03
+ceTaskId=AYmZn6Et3iUeNdV2fnJh
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYmZn6Et3iUeNdV2fnJh
